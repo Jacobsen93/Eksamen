@@ -18,14 +18,9 @@ namespace SupportPluginApi.Controllers
         public async Task<ActionResult<Ticket>> CreateTicket([FromBody]Ticket ticket)
         {
 
-            if (TryValidateModel(ticket) is false)
-            {
-                return BadRequest();
-            }
-            else
-            {
+        
             return Ok("ticket oprettet");
-            }
+            
         }
     }
 }

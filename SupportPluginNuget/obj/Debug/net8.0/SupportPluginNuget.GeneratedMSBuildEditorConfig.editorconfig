@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SupportPluginNuget
-build_property.ProjectDir = C:\Users\Kenneth\source\repos\FVF_SupportAssistant\SupportPluginNuget\
+build_property.ProjectDir = C:\Users\Kenneth\Source\Repos\Eksamen\SupportPluginNuget\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,9 @@
+@import '_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css';
+
+/* _content/SupportPluginRazorClassLibrary/Main.razor.rz.scp.css */
+.my-component[b-3lcnavdipw] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}

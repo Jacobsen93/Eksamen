@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupportPluginRazorClassLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27d87eaf9b0a4404db5bb86e16c6603577467fd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+216cbd4a2f897f4bb7fc89849b3a3a14c059a0b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupportPluginRazorClassLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupportPluginRazorClassLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginRazorClassLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SupportPluginRazorClassLibrary.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SupportPluginRazorClassLibrary.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginRazorClassLibrary\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginRazorClassLibrary\\wwwroot\\css\\custom-styles.css",
+      "PackagePath": "staticwebassets\\css\\custom-styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SupportPluginRazorClassLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SupportPluginRazorClassLibrary.props",
+      "PackagePath": "build\\SupportPluginRazorClassLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SupportPluginRazorClassLibrary.props",
+      "PackagePath": "buildMultiTargeting\\SupportPluginRazorClassLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SupportPluginRazorClassLibrary.props",
+      "PackagePath": "buildTransitive\\SupportPluginRazorClassLibrary.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

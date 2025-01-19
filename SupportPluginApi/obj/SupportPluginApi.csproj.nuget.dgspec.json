@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginApi\\SupportPluginApi.csproj": {}
+    "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginApi\\SupportPluginApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginApi\\SupportPluginApi.csproj": {
+    "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginApi\\SupportPluginApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginApi\\SupportPluginApi.csproj",
+        "projectUniqueName": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginApi\\SupportPluginApi.csproj",
         "projectName": "SupportPluginApi",
-        "projectPath": "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginApi\\SupportPluginApi.csproj",
+        "projectPath": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginApi\\SupportPluginApi.csproj",
         "packagesPath": "C:\\Users\\Kenneth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginApi\\obj\\",
+        "outputPath": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kenneth\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginNuget\\SupportPluginNuget.csproj": {
-                "projectPath": "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginNuget\\SupportPluginNuget.csproj"
+              "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginNuget\\SupportPluginNuget.csproj": {
+                "projectPath": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginNuget\\SupportPluginNuget.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginNuget\\SupportPluginNuget.csproj": {
+    "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginNuget\\SupportPluginNuget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginNuget\\SupportPluginNuget.csproj",
+        "projectUniqueName": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginNuget\\SupportPluginNuget.csproj",
         "projectName": "SupportPluginNuget",
-        "projectPath": "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginNuget\\SupportPluginNuget.csproj",
+        "projectPath": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginNuget\\SupportPluginNuget.csproj",
         "packagesPath": "C:\\Users\\Kenneth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginNuget\\obj\\",
+        "outputPath": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginNuget\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kenneth\\AppData\\Roaming\\NuGet\\NuGet.Config",

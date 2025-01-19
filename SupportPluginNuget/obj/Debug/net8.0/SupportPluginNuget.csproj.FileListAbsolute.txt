@@ -1,0 +1,13 @@
+C:\Users\Kenneth\Source\Repos\Eksamen\SupportPluginNuget\bin\Debug\net8.0\SupportPluginNuget.deps.json
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\bin\Debug\net8.0\SupportPluginNuget.dll
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\bin\Debug\net8.0\SupportPluginNuget.pdb
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\SupportPluginNuget.csproj.AssemblyReference.cache
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\SupportPluginNuget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\SupportPluginNuget.AssemblyInfoInputs.cache
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\SupportPluginNuget.AssemblyInfo.cs
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\SupportPluginNuget.csproj.CoreCompileInputs.cache
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\SupportPluginNuget.sourcelink.json
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\SupportPluginNuget.dll
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\refint\SupportPluginNuget.dll
+C:\Users\Kenneth\source\repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\SupportPluginNuget.pdb
+C:\Users\Kenneth\Source\Repos\Eksamen\SupportPluginNuget\obj\Debug\net8.0\ref\SupportPluginNuget.dll

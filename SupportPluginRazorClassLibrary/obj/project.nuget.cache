@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S0YMVIAbI/g=",
+  "dgSpecHash": "I7fL693Q7rA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kenneth\\source\\repos\\FVF_SupportAssistant\\SupportPluginRazorClassLibrary\\SupportPluginRazorClassLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Kenneth\\source\\repos\\Eksamen\\SupportPluginRazorClassLibrary\\SupportPluginRazorClassLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kenneth\\.nuget\\packages\\blazor.bootstrap\\3.2.0\\blazor.bootstrap.3.2.0.nupkg.sha512",
     "C:\\Users\\Kenneth\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.11\\microsoft.aspnetcore.authorization.8.0.11.nupkg.sha512",

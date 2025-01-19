@@ -10,6 +10,12 @@
     </BodyTemplate>
 </Modal>
 
+<Modal @ref="modal3">
+    <BodyTemplate>
+        <SupportPluginRazorClassLibrary.Views.Help></SupportPluginRazorClassLibrary.Views.Help>
+    </BodyTemplate>
+</Modal>
+
 <div class="floating-button">
     <!-- Floating Button -->
     <button class="floating-button" @onclick="ToggleMenu">
@@ -21,7 +27,7 @@
         <ul>
             <li><Button Color="ButtonColor.Primary" @onclick=OnShowModalClick>Request</Button></li>
             <li><Button Color="ButtonColor.Primary" @onclick=OnShowModal2Click>FAQ</Button></li>
-          <li><Button Color="ButtonColor.Primary">Option 3</Button></li>
+            <li><Button Color="ButtonColor.Primary" @onclick=OnShowModal3Click>FAQ</Button></li>
         </ul>
     </div>
 </div>
@@ -30,6 +36,7 @@
     private bool menuVisible = false;
     private Modal modal = default!;
     private Modal modal2 = default!;
+    private Modal modal3 = default!;
 
     private void ToggleMenu()
     {
@@ -46,4 +53,8 @@
         await modal2.ShowAsync();
     }
 
+    private async Task OnShowModal3Click()
+    {
+        await modal3.ShowAsync();
+    }
 }

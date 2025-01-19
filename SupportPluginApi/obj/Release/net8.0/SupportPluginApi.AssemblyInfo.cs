@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupportPluginApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a2a8e95342529a77c601789936d306e5923c3bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupportPluginApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupportPluginApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

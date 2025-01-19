@@ -24,7 +24,7 @@ namespace SupportPluginApi.Controllers
             _assemblyLoader = assemblyLoader ?? Assembly.LoadFrom;
             string userRootPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
             // Set the AssemblyFilePath using a relative path
-            AssemblyFilePath = Path.Combine(userRootPath, "source\\repos\\FVF_SupportAssistant\\SupportPluginRazorClassLibrary\\bin\\Debug\\net8.0\\SupportPluginRazorClassLibrary.dll");
+            AssemblyFilePath = Path.Combine(userRootPath, "source\\repos\\Eksamen\\SupportPluginRazorClassLibrary\\bin\\Debug\\net8.0\\SupportPluginRazorClassLibrary.dll");
         }
 
         [HttpGet("get-css")]

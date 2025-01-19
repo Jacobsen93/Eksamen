@@ -11,7 +11,7 @@ namespace SupportPluginApi.Controllers
         public UIComponentsController()
         {
             string userRootPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-            _uiComponentDirectory = Path.Combine(userRootPath, "source\\repos\\FVF_SupportAssistant\\SupportPluginRazorClassLibrary\\bin\\Debug\\net8.0");
+            _uiComponentDirectory = Path.Combine(userRootPath, "source\\repos\\Eksamen\\SupportPluginRazorClassLibrary\\bin\\Debug\\net8.0");
         }
 
         [HttpGet("ui-components")]
