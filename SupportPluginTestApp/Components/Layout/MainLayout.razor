@@ -1,0 +1,51 @@
+﻿@using SupportPluginNuget
+@inject ISupportPlugin SupportPlugin
+@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+            @if (!_initialized)
+            {
+                <p>Loading components...</p>
+            }
+            else
+            {
+                @if (SupportPlugin.GetSelectedComponent() != null)
+                {
+                    <DynamicComponent Type="@SupportPlugin.GetSelectedComponent()" />
+                }
+                else
+                {
+                    <p>No component selected.</p>
+                }
+            }
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code {
+    private bool _initialized = false;
+    private string _supportInfo = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await SupportPlugin.InitializeAsync("https://localhost:7118/ui-components", "SupportPluginRazorClassLibrary.Main", new ServiceCollection());
+        _initialized = true;
+    }
+}

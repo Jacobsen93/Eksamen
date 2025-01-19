@@ -1,0 +1,6 @@
+@SupportPluginApi_HostAddress = http://localhost:5144
+
+GET {{SupportPluginApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

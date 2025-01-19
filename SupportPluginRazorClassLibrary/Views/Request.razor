@@ -1,0 +1,56 @@
+﻿@page "/Request"
+@using Microsoft.AspNetCore.Components.Forms
+@using SupportPluginNuget.Model
+@using System.Net.Http.Json
+@inject HttpClient _httpClient
+
+
+<h3>RequestView</h3>
+
+<p>Udfyld venligst flg.</p>
+
+@if (responseMessage is not null)
+{
+    @responseMessage
+}
+
+
+<EditForm Model="@ticket" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <InputText @bind-Value=ticket.Title class="form-control" id="Title" />
+    </div>
+    <div class="form-group">
+        <label for="Message"><b>Besked</b></label>
+        <InputTextArea class="form-control" id="Message" type="text" @bind-Value=ticket.Message placeholder="test" rows="4" style="resize:none" />
+    </div>
+    <input type="submit" class="btn btn-primary" />
+</EditForm>
+
+
+
+@code {
+
+    bool Titletest = false;
+    bool errorMsg = false;
+    public Ticket ticket = new Ticket();
+    HttpResponseMessage responseMessage { get; set; }
+
+    async Task HandleSubmit()
+    {
+        ticket.Id = 1;
+        responseMessage = await _httpClient.PostAsJsonAsync("https://localhost:7118/CreateTicket", ticket);
+
+        if(responseMessage.StatusCode == System.Net.HttpStatusCode.OK)
+        {
+            ticket = new Ticket();
+        }
+        else
+        {
+            errorMsg = true;
+        }
+
+    }
+}

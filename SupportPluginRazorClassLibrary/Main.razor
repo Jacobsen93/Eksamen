@@ -1,0 +1,49 @@
+﻿<Modal @ref="modal">
+    <BodyTemplate>
+      <SupportPluginRazorClassLibrary.Views.Request></SupportPluginRazorClassLibrary.Views.Request>
+    </BodyTemplate>
+</Modal>
+
+<Modal @ref="modal2">
+    <BodyTemplate>
+        <SupportPluginRazorClassLibrary.Views.FAQ></SupportPluginRazorClassLibrary.Views.FAQ>
+    </BodyTemplate>
+</Modal>
+
+<div class="floating-button">
+    <!-- Floating Button -->
+    <button class="floating-button" @onclick="ToggleMenu">
+        +
+    </button>
+
+    <!-- Menu (Hidden or shown based on MenuVisible) -->
+    <div class="menu" style="display: @(menuVisible ? "block" : "none")">
+        <ul>
+            <li><Button Color="ButtonColor.Primary" @onclick=OnShowModalClick>Request</Button></li>
+            <li><Button Color="ButtonColor.Primary" @onclick=OnShowModal2Click>FAQ</Button></li>
+          <li><Button Color="ButtonColor.Primary">Option 3</Button></li>
+        </ul>
+    </div>
+</div>
+
+@code {
+    private bool menuVisible = false;
+    private Modal modal = default!;
+    private Modal modal2 = default!;
+
+    private void ToggleMenu()
+    {
+        menuVisible = !menuVisible;
+    }
+
+    private async Task OnShowModalClick()
+    {
+        await modal.ShowAsync();
+    }
+
+    private async Task OnShowModal2Click()
+    {
+        await modal2.ShowAsync();
+    }
+
+}

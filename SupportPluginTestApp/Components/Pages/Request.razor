@@ -1,0 +1,44 @@
+﻿@page "/request"
+@using Microsoft.AspNetCore.Components.Rendering
+@using SupportPluginTestApp.Manager
+@inherits LayoutComponentBase
+@inject HttpClient Http
+
+<h3>Support Page</h3>
+
+<div class="page">
+    <main>
+        <article class="content px-4">
+            @Body
+            @if (!_initialized)
+            {
+                <p>Loading components...</p>
+            }
+            else
+            {
+                @if (manager.SelectedComponent != null)
+                {
+                    <DynamicComponent Type="@manager.SelectedComponent" />
+                }
+                else
+                {
+                    <p>No component selected.</p>
+                }
+            }
+        </article>
+    </main>
+</div>
+
+@code {
+    private ComponentManager manager;
+
+    private bool _initialized = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        manager = new ComponentManager(Http);
+        await manager.InitializeAsync("https://localhost:7118/ui-components", "SupportPluginRazorClassLibrary.Main");
+        _initialized = true;
+    }
+
+}

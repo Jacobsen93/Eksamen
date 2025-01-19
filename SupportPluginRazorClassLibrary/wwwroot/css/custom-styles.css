@@ -1,0 +1,77 @@
+﻿body {
+    .my-component
+
+{
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}
+
+.floating-button {
+    position: fixed; /* Keep the button fixed on the screen */
+    bottom: 20px; /* Distance from the bottom of the screen */
+    right: 20px; /* Distance from the right side of the screen */
+    width: 50px; /* Button size */
+    height: 50px;
+    background-color: #007bff; /* Background color */
+    color: white; /* Text color */
+    border-radius: 50%; /* Make it circular */
+    border: none; /* Remove default border */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Optional: shadow effect */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* Font size for icon or text */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+    .floating-button:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+    }
+
+@media (max-width: 768px) {
+    .floating-button {
+        bottom: 15px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.menu {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+    .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+    }
+
+        .menu ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+            .menu ul li:last-child {
+                border-bottom: none;
+            }
+
+            .menu ul li a {
+                text-decoration: none;
+                color: #333;
+            }
+
+                .menu ul li a:hover {
+                    color: #007bff;
+                }
+}
