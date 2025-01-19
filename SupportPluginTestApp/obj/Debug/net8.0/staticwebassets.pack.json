@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Kenneth\\Source\\Repos\\Eksamen\\SupportPluginTestApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SupportPluginTestApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SupportPluginTestApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Kenneth\\Source\\Repos\\Eksamen\\SupportPluginTestApp\\wwwroot\\FVF.jpg",
+      "PackagePath": "staticwebassets\\FVF.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kenneth\\Source\\Repos\\Eksamen\\SupportPluginTestApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Kenneth\\Source\\Repos\\Eksamen\\SupportPluginTestApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kenneth\\Source\\Repos\\Eksamen\\SupportPluginTestApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kenneth\\Source\\Repos\\Eksamen\\SupportPluginTestApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Kenneth\\Source\\Repos\\Eksamen\\SupportPluginTestApp\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SupportPluginTestApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SupportPluginTestApp.props",
+      "PackagePath": "build\\SupportPluginTestApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SupportPluginTestApp.props",
+      "PackagePath": "buildMultiTargeting\\SupportPluginTestApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SupportPluginTestApp.props",
+      "PackagePath": "buildTransitive\\SupportPluginTestApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
